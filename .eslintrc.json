@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "extends": ["airbnb"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jsx-a11y", "import"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      "error", // retornar erro se o arquivo nao terminar com .js ou .jsx
+      {
+        "extension": [".js", ".jsx"]
+      }
+    ],
+    "global-require": "off", // permitir require global
+    "import/prefer-default-export": "off", //quando tem arquivos com varios exports
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }] // tira a regra do eslint que cobra que precise usar todas as variaveis
+  }
+}
