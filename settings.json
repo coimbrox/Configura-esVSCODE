@@ -1,6 +1,6 @@
 {
   // Define o tema do VSCode
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Omni",
   // Configura tamanho e família da fonte
   "editor.fontSize": 14,
   "editor.lineHeight": 20,
@@ -72,5 +72,23 @@
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
   "workbench.activityBar.visible": true,
-  "terminal.integrated.fontFamily": "monospace"
-}
+  "terminal.integrated.fontFamily": "monospace",
+  "window.menuBarVisibility": "toggle",
+  "terminal.integrated.shell.linux": "/usr/bin/bash",
+  "material-icon-theme.files.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
+  },
+  
