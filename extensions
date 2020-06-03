@@ -4,6 +4,7 @@ color highligt
 dotenv
 editor config
 eslint
+sqlite
 git lens
 graphql
 liveshare
