@@ -1,13 +1,18 @@
-Tema: Drácula ou Omni
-font: fira code
-color highligt
-dotenv
-editor config
-eslint
-sqlite
-git lens
-graphql
-liveshare
-material icon theme
-styled components
-rockeatseat os 2 
+
+****
+Color Highlight
+Colorize 
+DontENV
+EditorConfig for VSCODE
+ESLint
+GitLens
+GraphQL
+LiveServer
+LiveShare
+Material Icon Theme
+Omni
+Rocketseat React Native
+Rocketseat ReactJS
+SQLite
+Terminal 
+vscode-styled-components
